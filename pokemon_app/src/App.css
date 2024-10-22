@@ -1,0 +1,121 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.poke-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 4;
+  padding: 0 40px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: #fff;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.head-poke{
+  text-align: center;
+  padding: 10px;
+  color: rgb(129, 248, 218);
+}
+.poke-header input{
+  width: 35vw;
+  padding: 14px 10px;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: none;
+  outline: none;
+}
+.load{
+  padding: 20px;
+  text-align: center;
+
+}
+.err{
+  padding: 20px;
+  text-align: center;
+  color: red;
+}
+.container{
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card{
+  border-radius: 5px;
+  /* height: 400px; */
+
+  width: 395px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: radial-gradient(circle at 50% 0%,rgb(129, 248, 218) 36%, #fff 36%);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin: 10px 0;
+}
+.card img{
+  width: 35%;
+}
+.call {
+  padding: 10px 15px;
+  background-color: #fff;
+  position: relative;
+  top: 10px;
+  border-radius: 10px;
+}
+.call span{
+  font-weight: 600;
+  color:#55efc4;
+}
+.card h1{
+  padding: 9px 0;
+}
+.typr{
+  display: flex;
+}
+.typr p{
+  padding:  0 10px;
+  text-transform: capitalize;
+  background-color: #55efc4;
+  padding: 10px 15px;
+  color: #eee;
+  font-weight: 600;
+  border-radius: 5px;
+  margin-left: 10px ;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:  20px 0;
+}
+.res{
+  padding: 0 10px;
+  text-align: center;
+}
+.btn{
+  position: relative;
+  top: 20px;
+  left: 30%;
+  cursor: pointer;
+  background-color: #55efc4;
+  border: none;
+  color: #eee;
+  padding: 15px 30px;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+.poke-cont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

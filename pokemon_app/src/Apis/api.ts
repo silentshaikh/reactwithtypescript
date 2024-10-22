@@ -1,0 +1,1 @@
+export let pokaemonApi = `https://pokeapi.co/api/v2/pokemon?limit=200`;

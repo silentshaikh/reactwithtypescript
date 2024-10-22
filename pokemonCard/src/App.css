@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 40px  0  ;
+}
+h1{
+  text-align: center;
+  padding: 10px;
+}
+.pokeForm input{
+  width: 35vw;
+  padding: 14px 10px;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: none;
+  outline: none;
+}
+.load{
+  padding: 20px;
+  text-align: center;
+
+}
+.err{
+  padding: 20px;
+  text-align: center;
+  color: red;
+}
+.container{
+  padding: 50px 0;
+}
+.card{
+  border-radius: 5px;
+  width: 395px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: radial-gradient(circle at 50% 0%,orange 36%, #fff 36%);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.call {
+  padding: 10px 15px;
+  background-color: #fff;
+  position: relative;
+  top: 10px;
+  border-radius: 10px;
+}
+.call span{
+  font-weight: 600;
+  color:#55efc4;
+}
+.card h1{
+  padding: 9px 0;
+}
+.typr{
+  display: flex;
+}
+.typr p{
+  padding:  0 10px;
+  text-transform: capitalize;
+  background-color: #55efc4;
+  padding: 10px 15px;
+  color: #eee;
+  font-weight: 600;
+  border-radius: 5px;
+  margin-left: 10px ;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:  20px 0;
+}
+.res{
+  padding: 0 10px;
+  text-align: center;
+}
+.btn{
+  position: relative;
+  top: 20px;
+  left: 30%;
+  cursor: pointer;
+  background-color: #55efc4;
+  border: none;
+  color: #eee;
+  padding: 15px 30px;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+.poke-cont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

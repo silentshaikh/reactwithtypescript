@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Matemasie", sans-serif;
+  font-weight: 400;
+  font-style: normal
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.box{
+  width: 20vh;
+  height: 11vh;
+  border-radius: 40px;
+  background-color: rgb(218, 203, 203);
+  position: relative;
+}
+.box button{
+  /* padding: 15px; */
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+  transition: all 1s 0.3s ease-out;
+}

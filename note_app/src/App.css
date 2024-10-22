@@ -1,0 +1,110 @@
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    box-shadow: rgba(100, 98, 98, 0.09) 0px 3px 12px;
+    padding: 10px;
+    background-color: white;
+    flex-wrap: wrap;
+}
+.header h1{
+    color: aquamarine;
+    font-family: "New Amsterdam", system-ui;
+  font-weight: 400;
+}
+.header input{
+    width: 30vw;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+.note-form{
+    margin: 100px auto;
+    box-shadow: rgba(100, 98, 98, 0.09) 0px 3px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50vw;
+}
+.note-form label{
+    padding: 10px 0;
+    color: aquamarine;
+    font-family: "New Amsterdam", system-ui;
+    font-weight: 400;
+    font-size: 22px;
+}
+.note-form input{
+    width: 30vw;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+.note-form textarea{
+    width: 30vw;
+    padding: 10px 30px;
+    resize: none;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+.note-form button{
+    margin: 10px 0;
+    padding: 15px 25px;
+    background-color: aquamarine;
+    color: white;
+    font-family: "New Amsterdam", system-ui;
+    font-weight: 400;
+    border: none;
+    font-size: 20px;
+    border-radius:15px ;
+    cursor: pointer;
+}
+.note-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.note{
+    width: 30vw;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    margin: 10px 0;
+    padding: 15px;
+}
+.box1 h3{
+    padding: 5px 0;
+    color: #55efc4;
+}
+.box1 p{
+    height: 25vh;
+    overflow: auto;
+    padding: 5px;
+}
+.box2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+.delete{
+    margin: 0 10px;
+    font-size: 23px;
+    cursor: pointer;
+    color: #81ecec;
+}
+.edit{
+    margin: 0 10px;
+    font-size: 23px;
+    cursor: pointer;
+    color: #55efc4;
+}

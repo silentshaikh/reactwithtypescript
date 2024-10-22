@@ -1,0 +1,30 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.counter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.counter h2{
+  padding: 5px 0;
+}
+.counter input{
+  margin: 10px 0;
+  padding: 10px 20px;
+  width: 30vw;
+  border-radius: 20px;
+  outline: none;
+}
+.counter button{
+  background-color: black;
+  color: white;
+  padding: 13px 25px;
+  cursor: pointer;
+  border-radius: 20px;
+  margin: 5px;
+}
